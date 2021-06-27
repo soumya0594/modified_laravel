@@ -8,7 +8,7 @@
 [![Style CI](https://styleci.io/repos/53490941/shield)](https://styleci.io/repos/53490941)
 [![Total Downloads](https://img.shields.io/packagist/dt/backpack/generators.svg?style=flat-square)](https://packagist.org/packages/backpack/generators)
 
-Quickly generate Backpack templated Models, Requests, Views and Config files.
+Quickly generate Backpack templated Models, Requests, Views and Config files for projects using [Backpack for Laravel](https://backpackforlaravel.com) as their admin panel.
 
 > ### Security updates and breaking changes
 > Please **[subscribe to the Backpack Newsletter](http://backpackforlaravel.com/newsletter)** so you can find out about any security updates, breaking changes or major features. We send an email every 1-2 months.
@@ -18,7 +18,7 @@ Quickly generate Backpack templated Models, Requests, Views and Config files.
 Via Composer
 
 ``` bash
-composer require backpack/generators --dev
+composer require --dev backpack/generators 
 ```
 
 ## Usage
@@ -37,8 +37,9 @@ php artisan backpack:build
 ``` bash
 php artisan backpack:crud {Entity_name}
 
-# this will create a Model if there isn't one, or add
-# our CrudTrait to the model if it already exists
+# Use singular, either PascalCase, snake_case or kebab-case.
+# This will create a Model if there isn't one, or add
+# our CrudTrait to the model if it already exists.
 ```
 
 - Generate a new Backpack\CRUD file:
@@ -88,10 +89,10 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+Backpack is free for non-commercial use and 69 EUR/project for commercial use. Please see [License File](LICENSE.md) and [backpackforlaravel.com](https://backpackforlaravel.com/#pricing) for more information.
 
 ## Hire us
 
 We've spend more than 50.000 hours creating, polishing and maintaining administration panels on Laravel. We've developed e-Commerce, e-Learning, ERPs, social networks, payment gateways and much more. We've worked on admin panels _so much_, that we've created one of the most popular software in its niche - just from making public what was repetitive in our projects.
 
-If you are looking for a developer/team to help you build an admin panel on Laravel, look no further. You'll have a difficult time finding someone with more experience & enthusiasm for this. This is _what we do_. [Contact us - let's see if we can work together](https://backpackforlaravel.com/need-freelancer-or-development-team).
+If you are looking for a developer/team to help you build an admin panel on Laravel, look no further. You'll have a difficult time finding someone with more experience & enthusiasm for this. This is _what we do_. [Contact us](https://backpackforlaravel.com/need-freelancer-or-development-team). Let's see if we can work together.
